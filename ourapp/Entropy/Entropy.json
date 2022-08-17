@@ -7,14 +7,13 @@
     "App": 1,
     "Button1": 6,
     "Label1": 4,
-    "Label2": 5,
     "Screen1": 3,
     "Test_7F478737223C4B69": 2
   },
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:44:19",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:47:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -36,7 +35,6 @@
     "App": 0,
     "Button1": 1,
     "Label1": 0,
-    "Label2": 0,
     "Screen1": 0,
     "Test_7F478737223C4B69": 0
   },
