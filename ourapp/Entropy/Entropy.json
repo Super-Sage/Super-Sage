@@ -6,15 +6,24 @@
     "7952ce87-5504-4163-bff1-8db80e0a6198": 7,
     "App": 1,
     "Button1": 6,
-    "Label1": 4,
-    "Label2": 5,
+    "DatePicker1": 4,
+    "Gallery1": 9,
+    "galleryTemplate1": 10,
+    "Image1": 11,
+    "Label1": 5,
+    "Label2": 17,
+    "NextArrow1": 14,
+    "Rectangle1": 16,
     "Screen1": 3,
-    "Test_7F478737223C4B69": 2
+    "Separator1": 15,
+    "Subtitle1": 13,
+    "Test_7F478737223C4B69": 2,
+    "Title1": 12
   },
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:44:19",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 21:27:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -22,37 +31,56 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 1,
-    "label": 0
+    "button": 6,
+    "datepicker": 0,
+    "gallery": 2,
+    "icon": 5,
+    "image": 4,
+    "label": 1,
+    "rectangle": 3
   },
   "PublishOrderIndices": {
     "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 0,
     "7952ce87-5504-4163-bff1-8db80e0a6198": 0,
     "App": 0,
-    "Button1": 1,
-    "Label1": 0,
+    "Button1": 10,
+    "DatePicker1": 0,
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
+    "Image1": 4,
+    "Label1": 9,
     "Label2": 0,
+    "NextArrow1": 5,
+    "Rectangle1": 3,
     "Screen1": 0,
-    "Test_7F478737223C4B69": 0
+    "Separator1": 8,
+    "Subtitle1": 7,
+    "Test_7F478737223C4B69": 0,
+    "Title1": 6
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0669572,
+    "AnalysisLoadTime": 0.0645984,
     "ControlCount": {
       "button": 1,
-      "label": 2,
+      "datepicker": 1,
+      "label": 1,
       "screen": 1,
       "TestCase": 1,
       "TestSuite": 1
     },
-    "DeserializationLoadTime": 0.4049444,
+    "DeserializationLoadTime": 0.8055058,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
