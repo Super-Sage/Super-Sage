@@ -1,0 +1,33 @@
+"'7952ce87-5504-4163-bff1-8db80e0a6198' As TestSuite":
+    Description: =""
+    DisplayName: ="Suite"
+
+    "'2ee05952-2d8d-4c7b-af28-4c83f1a1bc42' As TestCase":
+        Description: =""
+        DisplayName: ="Case"
+
+        Step1 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select(Button1)
+
+        Step2 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select(Button1)
+
+        Step3 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select(Button1)
+
+        Step4 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select(Button1)
+
+        Step5 As TestStep:
+            Description: ="Select 'Label1'"
+            Screen: =Screen1
+            Value: =Select(Label1)
+
