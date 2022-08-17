@@ -96,3 +96,9 @@ Screen1 As screen:
             Width: =8
             ZIndex: =6
 
+    Label2 As label:
+        Text: ="Text"
+        X: =129
+        Y: =189
+        ZIndex: =5
+
