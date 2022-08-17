@@ -1,9 +1,19 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 16,
+    "7952ce87-5504-4163-bff1-8db80e0a6198": 15,
+    "App": 1,
+    "Button1": 14,
+    "Label1": 13,
+    "Screen1": 3,
+    "Test_7F478737223C4B69": 2
+  },
+  "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 21:44:43",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,13 +21,47 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 16,
+    "7952ce87-5504-4163-bff1-8db80e0a6198": 15,
+    "App": 0,
+    "Button1": 6,
+    "Label1": 5,
+    "Screen1": 2,
+    "Test_7F478737223C4B69": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0530431,
+    "ControlCount": {
+      "button": 1,
+      "datepicker": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 3,
+      "rectangle": 2,
+      "screen": 1,
+      "TestCase": 1,
+      "TestSuite": 1
+    },
+    "DeserializationLoadTime": 0.7202048,
+    "ErrorCount": 4
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
