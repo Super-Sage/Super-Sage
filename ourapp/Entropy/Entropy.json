@@ -11,7 +11,6 @@
     "galleryTemplate1": 10,
     "Image1": 11,
     "Label1": 5,
-    "Label2": 17,
     "NextArrow1": 14,
     "Rectangle1": 16,
     "Screen1": 3,
@@ -23,7 +22,7 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 21:27:10",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 21:43:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -40,11 +39,11 @@
   "OrderXMLTemplate": {
     "button": 6,
     "datepicker": 0,
-    "gallery": 2,
-    "icon": 5,
-    "image": 4,
-    "label": 1,
-    "rectangle": 3
+    "gallery": 1,
+    "icon": 4,
+    "image": 3,
+    "label": 5,
+    "rectangle": 2
   },
   "PublishOrderIndices": {
     "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 0,
@@ -56,7 +55,6 @@
     "galleryTemplate1": 2,
     "Image1": 4,
     "Label1": 9,
-    "Label2": 0,
     "NextArrow1": 5,
     "Rectangle1": 3,
     "Screen1": 0,
