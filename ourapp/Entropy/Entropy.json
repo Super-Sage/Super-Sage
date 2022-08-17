@@ -6,6 +6,7 @@
     "7952ce87-5504-4163-bff1-8db80e0a6198": 7,
     "App": 1,
     "Button1": 6,
+    "DatePicker1": 10,
     "Label1": 4,
     "Screen1": 3,
     "Test_7F478737223C4B69": 2
@@ -13,7 +14,7 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:47:54",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:48:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -26,7 +27,8 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 1,
+    "button": 2,
+    "datepicker": 1,
     "label": 0
   },
   "PublishOrderIndices": {
@@ -34,6 +36,7 @@
     "7952ce87-5504-4163-bff1-8db80e0a6198": 0,
     "App": 0,
     "Button1": 1,
+    "DatePicker1": 0,
     "Label1": 0,
     "Screen1": 0,
     "Test_7F478737223C4B69": 0
