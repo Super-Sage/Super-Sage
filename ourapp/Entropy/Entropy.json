@@ -14,7 +14,7 @@
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:48:23",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:49:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -28,16 +28,16 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 2,
-    "datepicker": 1,
-    "label": 0
+    "datepicker": 0,
+    "label": 1
   },
   "PublishOrderIndices": {
     "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 0,
     "7952ce87-5504-4163-bff1-8db80e0a6198": 0,
     "App": 0,
-    "Button1": 1,
+    "Button1": 2,
     "DatePicker1": 0,
-    "Label1": 0,
+    "Label1": 1,
     "Screen1": 0,
     "Test_7F478737223C4B69": 0
   },
