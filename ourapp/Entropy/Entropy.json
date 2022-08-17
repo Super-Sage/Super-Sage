@@ -7,14 +7,22 @@
     "App": 1,
     "Button1": 6,
     "DatePicker1": 4,
+    "Gallery1": 9,
+    "galleryTemplate1": 10,
+    "Image1": 11,
     "Label1": 5,
+    "NextArrow1": 14,
+    "Rectangle1": 16,
     "Screen1": 3,
-    "Test_7F478737223C4B69": 2
+    "Separator1": 15,
+    "Subtitle1": 13,
+    "Test_7F478737223C4B69": 2,
+    "Title1": 12
   },
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:55:27",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:58:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -22,14 +30,20 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
+    "button": 6,
     "datepicker": 0,
-    "label": 1
+    "gallery": 1,
+    "icon": 4,
+    "image": 2,
+    "label": 3,
+    "rectangle": 5
   },
   "PublishOrderIndices": {
     "2ee05952-2d8d-4c7b-af28-4c83f1a1bc42": 0,
@@ -37,11 +51,21 @@
     "App": 0,
     "Button1": 2,
     "DatePicker1": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 0,
+    "Image1": 0,
     "Label1": 1,
+    "NextArrow1": 0,
+    "Rectangle1": 0,
     "Screen1": 0,
-    "Test_7F478737223C4B69": 0
+    "Separator1": 0,
+    "Subtitle1": 0,
+    "Test_7F478737223C4B69": 0,
+    "Title1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
