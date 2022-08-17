@@ -7,27 +7,32 @@
         DisplayName: ="Case"
 
         Step1 As TestStep:
-            Description: ="Select 'Button1'"
+            Description: ="Select 'DatePicker1'"
             Screen: =Screen1
-            Value: =Select(Button1)
+            Value: =Select('DatePicker1')
 
         Step2 As TestStep:
             Description: ="Select 'Button1'"
             Screen: =Screen1
-            Value: =Select(Button1)
+            Value: =Select('Button1')
 
         Step3 As TestStep:
-            Description: ="Select 'Button1'"
+            Description: ="Select 'DatePicker1'"
             Screen: =Screen1
-            Value: =Select(Button1)
+            Value: =Select('DatePicker1')
 
         Step4 As TestStep:
-            Description: ="Select 'Button1'"
-            Screen: =Screen1
-            Value: =Select(Button1)
-
-        Step5 As TestStep:
             Description: ="Select 'Label1'"
             Screen: =Screen1
-            Value: =Select(Label1)
+            Value: =Select('Label1')
+
+        Step5 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select('Button1')
+
+        Step6 As TestStep:
+            Description: ="Select 'Button1'"
+            Screen: =Screen1
+            Value: =Select('Button1')
 
