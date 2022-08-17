@@ -6,15 +6,15 @@
     "7952ce87-5504-4163-bff1-8db80e0a6198": 7,
     "App": 1,
     "Button1": 6,
-    "DatePicker1": 10,
-    "Label1": 4,
+    "DatePicker1": 4,
+    "Label1": 5,
     "Screen1": 3,
     "Test_7F478737223C4B69": 2
   },
   "DoesTestStepsMetadataExist": true,
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:49:23",
+  "HeaderLastSavedDateTimeUTC": "08/17/2022 20:50:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -45,15 +45,16 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0669572,
+    "AnalysisLoadTime": 0.0645984,
     "ControlCount": {
       "button": 1,
-      "label": 2,
+      "datepicker": 1,
+      "label": 1,
       "screen": 1,
       "TestCase": 1,
       "TestSuite": 1
     },
-    "DeserializationLoadTime": 0.4049444,
+    "DeserializationLoadTime": 0.8055058,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
