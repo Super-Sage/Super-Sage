@@ -15,15 +15,26 @@ jobs:
     steps:
       - name: Every time
         run: echo "This step will always run"
+  build:
+    needs: test_schedule
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Try to fail
+      run: exit 1
   test:
     if: success() || failure()
-    needs: test_schedule
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Every time
         run: echo "This step will always run"
   notification:
-    if: failure()
+    if: failure() && github.event_name == 'push'
     needs: test 
     runs-on: ubuntu-latest
     name: Notify Teams that we need to check fail on build
