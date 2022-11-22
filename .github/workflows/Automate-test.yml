@@ -37,4 +37,4 @@ jobs:
       uses: thechetantalwar/teams-notify@v2
       with:
         teams_webhook_url: ${{ secrets.TEAM_HOOK }}
-        message: "Github Action Build is failing. Please check https://github.com/microsoft/PowerApps-TestEngine/actions for more details."
+        message: "Github Action Build is failing. $ {{ github.jobs.result == 'failure' }} Please check https://github.com/microsoft/PowerApps-TestEngine/actions for more details."
