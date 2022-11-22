@@ -15,13 +15,15 @@ jobs:
     steps:
       - name: Every time
         run: echo "This step will always run"
-  notify:
-    if: github.event.schedule && success()
+  notification:
+    if: github.event.schedule == "schedule"
     needs: test_schedule 
+    runs-on: ubuntu-latest
+    name: Notify Teams that we need to check fail on build
     steps:
-      - name: Send a Notification
-          id: notify
-          uses: thechetantalwar/teams-notify@v2
-          with:
-            teams_webhook_url: ${{ secrets.TEAM_HOOK }}
-            message: "Github Action Build Number ${{ github.run_number }} Completed for ${{ github.repository }} and the outcome is  ${{ needs.build.result }}."
+    - name: Send a Notification to Teams
+      id: notify
+      uses: thechetantalwar/teams-notify@v2
+      with:
+        teams_webhook_url: ${{ secrets.TEAM_HOOK }}
+        message: "Github Action Build Number ${{ github.run_number }} Completed for ${{ github.repository }} and the outcome is  ${{ needs.build.result }}."
