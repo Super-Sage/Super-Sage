@@ -16,6 +16,7 @@ jobs:
       - name: Every time
         run: echo "This step will always run"
   build:
+    needs: test_schedule
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -25,10 +26,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Try to fail
       run: exit 1
-    if: success() || failure()
   notification:
-    if: github.build.result == 'failure'
-    needs: test_schedule 
+    if: (github.event_name == 'schedule' || github.event_name == 'push') && github.jobs.result == 'failure'
+    needs: build 
     runs-on: ubuntu-latest
     name: Notify Teams that we need to check fail on build
     steps:
