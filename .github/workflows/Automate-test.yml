@@ -26,4 +26,4 @@ jobs:
       uses: thechetantalwar/teams-notify@v2
       with:
         teams_webhook_url: ${{ secrets.TEAM_HOOK }}
-        message: "Github Action Build fail on ${{ github.jobs.result == 'failure' }} Completed for ${{ github.repository }} and the outcome is  ${{ needs.build.result }}."
+        message: "Github Action Build fail on ${{ github.jobs.result }} Completed for ${{ github.repository }} and the outcome is  ${{ needs.build.result }}."
