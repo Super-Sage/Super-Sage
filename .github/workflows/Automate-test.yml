@@ -28,7 +28,7 @@ jobs:
     - name: Try to fail
       run: exit 1
   notification:
-    if: (success() || failure()) && github.build.result == 'failure'
+    if: success() || failure()
     needs: build 
     runs-on: ubuntu-latest
     name: Notify Teams that we need to check fail on build
