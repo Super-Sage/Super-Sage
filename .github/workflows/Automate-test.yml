@@ -16,7 +16,7 @@ jobs:
       - name: Every time
         run: echo "This step will always run"
   notification:
-    if: github.event.schedule == "schedule"
+    if: github.event_name == "schedule"
     needs: test_schedule 
     runs-on: ubuntu-latest
     name: Notify Teams that we need to check fail on build
