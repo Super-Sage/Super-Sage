@@ -15,6 +15,19 @@ jobs:
     steps:
       - name: Every time
         run: echo "This step will always run"
+  build:
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Try to fail
+      run: exit 1
+    - name: Print message if we don't fail
+      run: echo Should not get here
   notification:
     if: github.event_name == 'schedule' || github.event_name == 'push' && github.jobs.result == 'failure'
     needs: test_schedule 
