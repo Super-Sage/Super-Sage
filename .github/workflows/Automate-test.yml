@@ -16,7 +16,6 @@ jobs:
       - name: Every time
         run: echo "This step will always run"
   build:
-    if: success() || failure()
     needs: test_schedule
     strategy:
       matrix:
