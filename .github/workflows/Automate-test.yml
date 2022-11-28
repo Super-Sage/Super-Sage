@@ -15,20 +15,9 @@ jobs:
     steps:
       - name: Every time
         run: echo "This step will always run"
-  build:
-    needs: test_schedule
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-    runs-on: ${{ matrix.os }}
-    
-    steps:
-    - uses: actions/checkout@v1
-    - name: Try to fail
-      run: exit 1
+  
   test:
     if: success() || failure()
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Every time
