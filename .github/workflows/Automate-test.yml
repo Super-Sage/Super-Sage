@@ -6,8 +6,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: '5 * * * *'
 
 jobs:
   test_schedule:
@@ -24,12 +22,17 @@ jobs:
       - name: Every time
         run: echo "This step will always run"
   test1:
-    needs: test_schedule
-    if: success() || failure()
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    runs-on: ${{ matrix.os }}
+    
     steps:
-      - name: Every time
-        run: echo "This step will always run"
+    - uses: actions/checkout@v1
+    - name: Try to fail
+      run: exit 1
+    - name: Print message if we don't fail
+      run: echo Should not get here
   test2:
     if: success() || failure()
     needs: test_schedule
