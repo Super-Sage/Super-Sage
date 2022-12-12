@@ -22,6 +22,7 @@ jobs:
       - name: Every time
         run: echo "This step will always run"
   test1:
+    needs: test_schedule
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
