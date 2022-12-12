@@ -18,11 +18,13 @@ jobs:
   
   test:
     if: success() || failure()
+    needs: test_schedule
     runs-on: ubuntu-latest
     steps:
       - name: Every time
         run: echo "This step will always run"
   test1:
+    needs: test_schedule
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
@@ -30,6 +32,7 @@ jobs:
         run: echo "This step will always run"
   test2:
     if: success() || failure()
+    needs: test_schedule
     runs-on: ubuntu-latest
     steps:
       - name: Every time
